@@ -7,7 +7,7 @@ $(document).ready(function () {
 });
 
 $(window).resize(function () {
-  if (typeof publications !== 'undefined' && Array.isArray(publications) && publications.length > 0) {
+  if (typeof generatedBibEntries  !== 'undefined' && Array.isArray(generatedBibEntries) && generatedBibEntries.length > 0) {
     timeline.updateTimeline();
   } else {
     console.warn("⏳ 数据未加载完成，跳过 timeline.updateTimeline()");
@@ -15,3 +15,4 @@ $(window).resize(function () {
 });
 
 const electron = typeof require !== 'undefined';
+//generatedBibEntries
