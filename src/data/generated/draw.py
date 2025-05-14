@@ -3,13 +3,14 @@ import matplotlib.pyplot as plt
 
 # 构建新数据：10篇已选文献的年份和对应的评估方式数量
 data = {
-    "Year": [2018, 2020, 2020, 2020, 2021, 2023, 2023, 2024, 2025, 2023],
-    "Controlled User Study": [0, 0, 0, 0, 0, 0, 0, 1, 1, 0],
+    "Year": [2018, 2020, 2020, 2021, 2021, 2023, 2023, 2023, 2024, 2025],
+    "Controlled User Study": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     "Simulation": [1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
-    "Clinical Trial": [0, 0, 0, 0, 0, 0, 0, 1, 1, 0],
-    "Prototype Demo": [0, 1, 0, 0, 1, 1, 0, 0, 0, 0],
-    "Case Study": [0, 0, 0, 0, 1, 1, 1, 0, 0, 1],
+    "Clinical Trial": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1],
+    "Prototype Demo": [0, 0, 1, 1, 0, 1, 0, 0, 0, 0],
+    "Case Study": [0, 0, 0, 1, 1, 1, 1, 0, 0, 0],
 }
+
 
 # 转为 DataFrame 并按年份聚合
 df = pd.DataFrame(data)

@@ -1,5 +1,5 @@
-﻿const generatedBibEntries = {
-    "SmartInfantCVAI2023": {
+﻿const generatedBibEntries  = {
+    "SinghInfantCVAI2023": {
         "abstract": "The new era of technology is being greatly \n" +
             "influenced by the field of artificial intelligence. Computer vision \n" +
             "and deep learning have become increasingly important due to \n" +
@@ -87,23 +87,7 @@
       "year": "2020"
     },
 
-    "Airaksinen2020WearablePosture": {
-      "abstract": "This study introduces a smart jumpsuit equipped with four inertial movement sensors (IMUs) for automatic posture and movement classification in infants. A novel annotation scheme was developed to label posture (e.g., prone, supine) and gross movement patterns (e.g., pivoting, crawling). The system was trained using both SVM and a custom-designed CNN, achieving human-level performance on movement recognition. A unique Iterative Annotation Refinement (IAR) approach addressed label ambiguity by combining probabilistic human labels and classifier output. The results demonstrate that wearable sensor-based assessment is viable for large-scale, real-time infant motor behavior tracking.",
-      "author": "Airaksinen, Manu and Räsänen, Okko and Ilén, Elina and Häyrinen, Taru and Kivi, Anna and Marchi, Viviana and Gallen, Anastasia and Blom, Sonja and Varhe, Anni and Kaartinen, Nico and Haataja, Leena and Vanhatalo, Sampsa",
-      "journal": "Scientific Reports",
-      "keywords": "type:application, paradigm:cnn, paradigm:svm, evaluation:human_level_accuracy, application:posture_tracking, application:movement_classification, paradigm:wearable_sensor, time:real_time",
-      "pages": "1--13",
-      "publisher": "Nature Publishing Group",
-      "references": "Shamsir2020InfantMonitor",
-      "series": "ScientificReports",
-      "title": "Automatic Posture and Movement Tracking of Infants with Wearable Movement Sensors",
-      "type": "article",
-      "url": "https://doi.org/10.1038/s41598-019-56862-5",
-      "doi": "https://doi.org/10.1038/s41598-019-56862-5",
-      "volume": "10",
-      "number": "169",
-      "year": "2020"
-    },
+
     "Huang2025SuffocationDetection": {
       "abstract": "This study proposes a camera-based infant suffocation risk detection framework leveraging text-to-image generation to overcome the scarcity of real-world data. Using the Kolors diffusion model, 25,000 occlusion-specific images were generated via custom prompt engineering to train models using self- and semi-supervised learning. A clinical trial was conducted, capturing 14,060 real infant images under various occlusion scenarios. Models trained on generated data achieved over 90% in accuracy, recall, and F1-score, outperforming those trained via conventional fine-tuning or transfer learning. This work highlights how generative data and minimal supervision can achieve robust suffocation risk detection for sleep safety.",
       "author": "Huang, Dongmin and Liao, Chuchu and Mai, Jingyun and He, Xiaoxiao and Pan, Liping and Xia, Ming and Lai, Huailei and Yang, Xuhui and Lin, Zhenlang and Wang, Wenjin",
@@ -188,7 +172,24 @@
       "year": "2023",
       "url": "https://doi.org/10.1016/j.pmcj.2023.101752",
       "doi": "https://doi.org/10.1016/j.pmcj.2023.101752"
+    },
+   "Khan2021SmartInfant": {
+      "abstract": "This paper presents a deep learning-based smart baby monitor that automatically detects harmful sleep-related situations such as face covered, blanket thrown off, frequent movement, and awakening using camera input. The system implements pose estimation, motion detection, and eye aspect ratio (EAR) tracking to identify these states. Algorithms are optimized to run on an embedded NVIDIA Jetson Nano platform with low latency, and alerts are delivered to a caregiver’s smartphone using Firebase Cloud Messaging (FCM). A smartphone app receives the notifications and streams real-time video from the device, allowing for remote monitoring even outside the home network. Experimental results show the system’s efficacy in both day and night conditions using realistic baby dolls and images.",
+      "author": "Khan, Tareq",
+      "doi": "https://doi.org/10.3390/ai2020018",
+      "journal": "AI",
+      "publisher": "MDPI",
+      "year": "2021",
+      "volume": "2",
+      "number": "2",
+      "pages": "290–306",
+      "title": "An Intelligent Baby Monitor with Automatic Sleeping Posture Detection and Notification",
+      "type": "article",
+      "keywords": "type:system, application:infant monitoring, method:deep learning, task:posture detection, task:awake detection, task:blanket detection, platform:Jetson Nano, evaluation:prototype",
+      "url": "https://www.mdpi.com/2673-2688/2/2/18",
+      "doi": "https://www.mdpi.com/2673-2688/2/2/18"
     }
+
 
 };
 
