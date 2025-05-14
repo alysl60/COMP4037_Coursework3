@@ -1,13 +1,10 @@
-window.surVisVersion = '0.1.0';
-
 $(document).ready(function () {
   page.init();
-  page.update(true);
+  
+  // 等所有资源加载完（包括 script, image, js）再绘图
+  window.onload = function () {
+    page.update(true);
+  };
+
   selectors.readQueryFromUrl();
 });
-
-$(window).resize(function () {
-  timeline.updateTimeline();
-});
-
-const electron = typeof require !== 'undefined';
